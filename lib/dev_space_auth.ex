@@ -5,7 +5,7 @@ defmodule DevSpaceAuth do
   @behaviour Plug
   import Plug.Conn
   @bucket_name "dev_space_auth"
-  @attempts 2
+  @attempts 5
   @period :timer.seconds(60)
 
   @impl Plug
